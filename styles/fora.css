@@ -178,7 +178,7 @@
 .hero {
   background: #000000;
   background: linear-gradient(to right, #161616, #000000);
-  background: linear-gradient(rgba(149, 0, 219, 0.73),#000),url(#);
+  background: url(https://github.com/Dolsity/fora/blob/main/img/smoke.jpg?raw=true);
   background-attachment: fixed;
   background-size: cover;
   padding: 200px 0;
