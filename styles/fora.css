@@ -419,6 +419,8 @@
   .main__content p {
     margin-top: 1rem;
     font-size: 1.5rem;
+    width: 40rem;
+    height: 0%;
   }
 }
 
