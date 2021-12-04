@@ -455,8 +455,6 @@
 }
 
 
-
-
 @media screen and (max-width: 480px) {
   .main__img--card {
     width: 250px;
@@ -478,13 +476,13 @@
 
   .main__content p {
     margin-top: 2rem;
-    width: 25rem;
+    width: 23rem;
     height: 0%;
   }
 
   .main__btn {
     padding: 12px 36px;
-    margin: 2.5rem 0;
+    margin: 1.5rem 0;
   }
 }
 
