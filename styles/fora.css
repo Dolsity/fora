@@ -467,7 +467,7 @@
   }
 
   .main__content h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-top: 3rem;
   }
   .main__content h2 {
@@ -505,7 +505,7 @@
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
   margin-bottom: 5rem;
-  font-size: 5.5rem;
+  font-size: 3.5rem;
 }
 
 .features__wrapper {
@@ -580,6 +580,7 @@
     grid-template-columns: 1fr;
   }
 }
+
 
 /* Footer CSS */
 .footer__container {
