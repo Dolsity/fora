@@ -419,10 +419,43 @@
   .main__content p {
     margin-top: 1rem;
     font-size: 1.5rem;
+    width: 60rem;
+    height: 0%;
+  }
+}
+
+/* Mobile Responsive */
+@media screen and (max-width: 980px) {
+  .main__content p {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    width: 50rem;
+    height: 0%;
+  }
+}
+
+/* Mobile Responsive */
+@media screen and (max-width: 780px) {
+  .main__content p {
+    margin-top: 1rem;
+    font-size: 1.5rem;
     width: 40rem;
     height: 0%;
   }
 }
+
+/* Mobile Responsive */
+@media screen and (max-width: 680px) {
+  .main__content p {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    width: 30rem;
+    height: 0%;
+  }
+}
+
+
+
 
 @media screen and (max-width: 480px) {
   .main__img--card {
@@ -445,6 +478,8 @@
 
   .main__content p {
     margin-top: 2rem;
+    width: 25rem;
+    height: 0%;
   }
 
   .main__btn {
