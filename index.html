@@ -59,40 +59,41 @@ Discord Server!</h1>
           <h1>Why Fora?</h1>
           <h2>Best Features about Fora</h2>
           <p>Fora was created with the intention of being accessible to everyone, regardless of whether if you have knowledge of discord or not. Fora has an easy-to-use prefix, a command layout, and an easy-to-access help menu. Fora commands are fun, so you'll never have a boring moment on Discord with your friends!</p>
+          <p id="demo"></p>
           <button class="main__btn"><a href="https://discord.com/api/oauth2/authorize?client_id=891773139200139354&permissions=545460846583&scope=bot">Invite Fora</a></button>
         </div>
       </div>
     </div>
 
     <!-- Features Section -->
-    <div class="services" id="services">
+    <div class="features" id="features">
       <h1>Features</h1>
-      <div class="services__wrapper">
-        <div class="services__card">
+      <div class="features__wrapper">
+        <div class="features__card">
           <h2>Custom Prefix</h2>
           <p>Customize your own server by changing the bots prefix!</p>
-          <div class="services__btn"><button>Get Started</button></div>
+          <div class="features__btn"><button>Get Started</button></div>
         </div>
-        <div class="services__card">
+        <div class="features__card">
           <h2>​Music System?</h2>
           <p>Listen to music on your guild with your friends!</p>
-          <div class="services__btn"><button>Get Started</button></div>
+          <div class="features__btn"><button>Get Started</button></div>
         </div>
-        <div class="services__card">
+        <div class="features__card">
           <h2>Levels and XP</h2>
           <p>Reward the most active members of your community.</p>
-          <div class="services__btn"><button>Get Started</button></div>
+          <div class="features__btn"><button>Get Started</button></div>
         </div>
-        <div class="services__card">
+        <div class="features__card">
           <h2>Database Control</h2>
           <p>Full access to your server database!</p>
-          <div class="services__btn"><button>Get Started</button></div>
+          <div class="features__btn"><button>Get Started</button></div>
         </div>
       </div>
     </div>
 
     <!-- Support Section -->
-    <div class="main" id="sign-up">
+    <div class="main" id="support">
       <div class="main__container">
         <div class="main__content">
           <h1>Need Help?</h1>
@@ -137,7 +138,7 @@ Discord Server!</h1>
             <a href="#" class="social__icon--link" target="_blank"
               ><i class="fab fa-facebook"></i
             ></a>
-            <a href="https://www.instagram.com/dolsity/?hl=en" class="social__icon--link"
+            <a href="https://www.instagram.com/dolsity/?hl=en" class="social__icon--link" 
               ><i class="fab fa-instagram"></i
             ></a>
             <a href="https://www.youtube.com/channel/UCeg0bjKUXQqYlWh3xsGY5YA" class="social__icon--link"
@@ -155,6 +156,39 @@ Discord Server!</h1>
     </div>
 
     <script src="scripts/fora.js"></script>
-    <script src="scripts/alert.js"></script>
+  
+    <!-- Display the countdown timer in an element -->
+
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Jan 15, 2022 15:00:25").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  // Display the result in the element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s Until Fora becomes public.";
+
+  // If the count down is finished, write some text
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
+  
   </body>
 </html>
