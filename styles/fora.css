@@ -445,6 +445,8 @@
 
   .main__content p {
     margin-top: 2rem;
+    width: 15rem;
+    height: 0%;
   }
 
   .main__btn {
