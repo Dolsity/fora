@@ -488,7 +488,7 @@
   flex-direction: column;
   justify-content: center;
   color: #fff;
-  background-image: linear-gradient(to top, rgba(142, 0, 209, 0.67) 0%, rgba(242, 214, 255, 0.67) 100%),url(https://www.titan911.com/wp-content/uploads/2019/07/WHY-IS-SOOT-AND-SMOKE-DANGEROUS.jpg); 
+  background-image: linear-gradient(to top, rgba(142, 0, 209, 0.67) 0%, rgba(242, 214, 255, 0.67) 100%),url(https://github.com/Dolsity/fora/blob/main/img/smokes.jpg?raw=true); 
   background-attachment: fixed;
   background-size: cover;
   transition: 0.3s ease-in;
