@@ -76,6 +76,28 @@
   transition: all 0.3s ease;
 }
 
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  padding: 10px 20px;
+  height: 100%;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  background: rgb(57, 148, 255);
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  color: #FFFFFF;
+  transition: all 0.3s ease;
+  background: rgb(57, 200, 255);
+}
+
 .navbar__btn {
   display: flex;
   justify-content: center;
