@@ -523,8 +523,7 @@
   flex-direction: column;
   justify-content: center;
   color: #fff;
-  background-image: linear-gradient(to top, rgba(142, 0, 209, 0.67) 0%, rgba(242, 214, 255, 0.67) 100%),url(https://github.com/Dolsity/fora/blob/main/img/smokes.jpg?raw=true); 
-  background-attachment: fixed;
+  background-image: url(https://github.com/Dolsity/fora/blob/main/img/smoke.jpg?raw=true); 
   background-size: cover;
   transition: 0.3s ease-in;
 }
