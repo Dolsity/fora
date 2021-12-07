@@ -30,8 +30,7 @@
 }
 
 #navbar__logo {
-  background-color: #ff8177;
-  background-image: linear-gradient(to top, #9518fc 0%, #9518fc 100%);
+  background-color: #0BDE16;
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -107,7 +106,7 @@
 }
 
 .navbar__links:hover {
-  color: #9518fc;
+  color: #0BDE16;
   transition: all 0.3s ease;
 }
 
@@ -200,7 +199,7 @@
 .hero {
   background: #000000;
   background: linear-gradient(to right, #161616, #000000);
-  background: url(https://github.com/Dolsity/fora/blob/main/img/smoke.jpg?raw=true);
+  background: url(https://github.com/Dolsity/fora/blob/main/img/green.png?raw=true);
   background-attachment: fixed;
   background-size: cover;
   padding: 200px 0;
@@ -264,7 +263,7 @@
 }
 
 .highlight {
-  border-bottom: 4px solid rgb(132, 0, 255);
+  border-bottom: 4px solid #0BDE16;
 }
 
 @media screen and (max-width: 768px) {
@@ -387,7 +386,7 @@
   flex-direction: column;
   justify-content: center;
   color: #fff;
-  background-image: url(https://github.com/Dolsity/dolsity.github.io/blob/main/img/fora.png?raw=true);
+  background-image: url(https://github.com/Dolsity/fora/blob/main/img/xmas.png?raw=true);
   background-size: cover;
 }
 
@@ -545,7 +544,7 @@
   flex-direction: column;
   justify-content: center;
   color: #fff;
-  background-image: url(https://github.com/Dolsity/fora/blob/main/img/smoke.jpg?raw=true); 
+  background-image: url(https://github.com/Dolsity/fora/blob/main/img/green.png?raw=true); 
   background-size: cover;
   transition: 0.3s ease-in;
 }
@@ -611,10 +610,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
+} 
 
 #footer__logo {
-  color: #fff;
+  color: #0BDE16;
   display: flex;
   align-items: center;
   cursor: pointer;
