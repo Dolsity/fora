@@ -30,7 +30,7 @@
 }
 
 #navbar__logo {
-  background-color: #0BDE16;
+  background-color: #FFFFFF;
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -197,8 +197,6 @@
 
 /* Hero Section */
 .hero {
-  background: #000000;
-  background: linear-gradient(to right, #161616, #000000);
   background: url(https://github.com/Dolsity/fora/blob/main/img/green.png?raw=true);
   background-attachment: fixed;
   background-size: cover;
@@ -613,7 +611,7 @@
 } 
 
 #footer__logo {
-  color: #0BDE16;
+  color: #FFFFFF;
   display: flex;
   align-items: center;
   cursor: pointer;
@@ -687,4 +685,137 @@
 
 .website__rights {
   color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.credits   {
+  background: #131313;
+}
+
+.credits-inside   {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.credit-header h1  {
+  text-transform: uppercase;
+  text-align: center; 
+  background-color: #FFFFFF;
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  margin-bottom: 5rem;
+  font-size: 4.5rem;
+}
+
+.credit-box {
+  display: inline-block;
+  width: 45%;
+  padding: 20px 10px; 
+}
+
+img {
+  display: flex; 
+  align-items: left;
+  width: 28%;
+  height: auto;
+  margin-bottom: .5rem;
+  border-radius: 50%;
+}
+
+.credit-author h2 {
+  background-color: #FFFFFF;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  font-size: 2rem;
+  margin-top: -100px; 
+  text-align: center;
+  right: 10%;
+}
+
+.credit-author p {
+  text-transform: uppercase;
+  text-align: center; 
+  background-color: #FFFFFF;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  margin-bottom: .5rem;
+  font-size: 1.0rem; 
+}
+
+
+
+
+@media screen and (max-width: 1400px) {
+  .credits   {
+  background: #131313;
+}
+
+.credits-inside   {
+  width: 120%; 
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.credit-header h1  {
+  text-align: center; 
+  font-size: 4.5rem;
+}
+
+.credit-box {
+  display: inline-block;
+  width: 40%;
+  padding: 20px 10px; 
+}
+}
+
+@media screen and (max-width: 1100px) {
+  .credits   {
+  background: #131313;
+}
+
+.credits-inside   {
+  width: 100%; 
+  max-width: 1110px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.credit-header h1  {
+  text-align: center; 
+  font-size: 2.5rem;
+  margin-bottom: 9rem;
+}
+
+.credit-box {
+  display: inline-block;
+  width: 70%;
+  padding: 30px 70px; 
+  margin-bottom: 5rem;
+  }
+  
+img {
+  display: none; 
+}
 }
