@@ -815,7 +815,39 @@ img {
   margin-bottom: 5rem;
   }
   
-img {
-  display: none; 
 }
+
+@media screen and (max-width: 850px) {
+  .credits   {
+  background: #131313;
+}
+
+.credits-inside   {
+  width: 100%; 
+  max-width: 1110px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.credit-header h1  {
+  text-align: center; 
+  font-size: 2.5rem;
+  margin-bottom: 9rem;
+}
+
+.credit-box {
+  display: inline-block;
+  width: 70%;
+  padding: 30px 70px; 
+  margin-bottom: 5rem;
+  }
+  
+  img {
+    display: flex; 
+    align-items: left;
+    width: 20%;
+    height: auto;
+    margin-bottom: .5rem;
+    border-radius: 50%;
+  }
 }
