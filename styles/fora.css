@@ -106,7 +106,7 @@
 }
 
 .navbar__links:hover {
-  color: #0BDE16;
+  color: #9312dd;
   transition: all 0.3s ease;
 }
 
@@ -197,7 +197,7 @@
 
 /* Hero Section */
 .hero {
-  background: url(https://github.com/Dolsity/fora/blob/main/img/green.png?raw=true);
+  background: url(https://github.com/Dolsity/fora/blob/main/img/smoke.jpg?raw=true);
   background-attachment: fixed;
   background-size: cover;
   padding: 200px 0;
@@ -261,7 +261,7 @@
 }
 
 .highlight {
-  border-bottom: 4px solid #0BDE16;
+  border-bottom: 4px solid #9312dd;
 }
 
 @media screen and (max-width: 768px) {
@@ -384,7 +384,7 @@
   flex-direction: column;
   justify-content: center;
   color: #fff;
-  background-image: url(https://github.com/Dolsity/fora/blob/main/img/xmas.png?raw=true);
+  background-image: url(https://github.com/Dolsity/fora/blob/main/img/fora.png?raw=true);
   background-size: cover;
 }
 
@@ -542,7 +542,7 @@
   flex-direction: column;
   justify-content: center;
   color: #fff;
-  background-image: url(https://github.com/Dolsity/fora/blob/main/img/green.png?raw=true); 
+  background-image: url(https://github.com/Dolsity/fora/blob/main/img/smoke.jpg?raw=true); 
   background-size: cover;
   transition: 0.3s ease-in;
 }
