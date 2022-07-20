@@ -1,1 +1,1 @@
-alert("This is a test");
+alert("The Fora website may display differently in other browsers");

@@ -33,7 +33,7 @@
   background-color: #FFFFFF;
   background-size: 100%;
   -webkit-background-clip: text;
-  -moz-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
   display: flex;
@@ -106,9 +106,9 @@
 }
 
 .navbar__links:hover {
-  color: #9114ff;
-  transition: all 0.3s ease;
-}
+    color: #9114ff;
+    transition: all 0.3s ease;
+  }
 
 @media screen and (max-width: 960px) {
   .navbar__container {
@@ -235,7 +235,7 @@
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-size: 100%;
   -webkit-background-clip: text;
-  -moz-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   -mo-text-fill-color: transparent;
 }
@@ -255,7 +255,7 @@
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-size: 100%;
   -webkit-background-clip: text;
-  -moz-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
 }
@@ -303,7 +303,7 @@
   background: #FFFFFF;
   background-size: 100%;
   -webkit-background-clip: text;
-  -moz-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
   text-transform: uppercase;
@@ -315,7 +315,7 @@
   background: #878787;
   background-size: 100%;
   -webkit-background-clip: text;
-  -moz-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
 }
@@ -400,7 +400,7 @@
 }
 
 /* Mobile Responsive */
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1120px) {
   .main__container {
     display: grid;
     grid-template-columns: 1fr;
@@ -520,7 +520,7 @@
   background-color: #FFFFFF;
   background-size: 100%;
   -webkit-background-clip: text;
-  -moz-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
   margin-bottom: 5rem;
@@ -598,6 +598,13 @@
     grid-template-columns: 1fr;
   }
 }
+
+
+
+
+
+
+
 
 
 /* Footer CSS */
@@ -685,137 +692,4 @@
 
 .website__rights {
   color: #fff;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.credits   {
-  background: #131313;
-}
-
-.credits-inside   {
-  width: 80%;
-  max-width: 1200px;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.credit-header h1  {
-  text-transform: uppercase;
-  text-align: center; 
-  background-color: #FFFFFF;
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-  margin-bottom: 5rem;
-  font-size: 4.5rem;
-}
-
-.credit-box {
-  display: inline-block;
-  width: 45%;
-  padding: 20px 10px; 
-}
-
-img {
-  display: flex; 
-  align-items: left;
-  width: 28%;
-  height: auto;
-  margin-bottom: .5rem;
-  border-radius: 50%;
-}
-
-.credit-author h2 {
-  background-color: #FFFFFF;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-  font-size: 2rem;
-  margin-top: -100px; 
-  text-align: center;
-  right: 10%;
-}
-
-.credit-author p {
-  text-transform: uppercase;
-  text-align: center; 
-  background-color: #FFFFFF;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-  margin-bottom: .5rem;
-  font-size: 1.0rem; 
-}
-
-
-
-
-@media screen and (max-width: 1400px) {
-  .credits   {
-  background: #131313;
-}
-
-.credits-inside   {
-  width: 120%; 
-  max-width: 1200px;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.credit-header h1  {
-  text-align: center; 
-  font-size: 4.5rem;
-}
-
-.credit-box {
-  display: inline-block;
-  width: 40%;
-  padding: 20px 10px; 
-}
-}
-
-@media screen and (max-width: 1100px) {
-  .credits   {
-  background: #131313;
-}
-
-.credits-inside   {
-  width: 100%; 
-  max-width: 1110px;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.credit-header h1  {
-  text-align: center; 
-  font-size: 2.5rem;
-  margin-bottom: 9rem;
-}
-
-.credit-box {
-  display: inline-block;
-  width: 70%;
-  padding: 30px 70px; 
-  margin-bottom: 5rem;
-  }
-  img {
-    display: none; 
-  }  
-
 }
